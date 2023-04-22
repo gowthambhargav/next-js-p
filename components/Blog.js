@@ -5,7 +5,7 @@ function Blog() {
     <div className='dark:text-white'>
         <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
-  <div className='text-3xl font-semibold my-8 text-black dark:text-white  py-2'><p className=''>Latest Blog's</p>
+  <div className='text-3xl font-semibold my-8 text-black dark:text-white  py-2'><p className=''>Latest Blogs</p>
   <div className="border-b-4 border-green-500 py-1 w-[90px] rounded"></div>
   </div>
   <div className="p-4 md:w-1/3">
