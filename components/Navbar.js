@@ -75,7 +75,7 @@ function Navbar({ logOut, user, fetchUderInfo }) {
                 Blog
               </span>
             </Link>
-            <Link href={'/services'}>
+            <Link href={'/Servicese'}>
               <span className="text-base font-medium text-gray-500 hover:border-b-2 border-b-green-500 border-spacing-2">
                 Services
               </span>
@@ -176,7 +176,7 @@ function Navbar({ logOut, user, fetchUderInfo }) {
 
                   <Link href={'/'} className='ml-3 text-base font-medium text-gray-900 dark:text-white'><span>Home</span></Link>
                   <Link href={'/blog'} className='ml-3 text-base font-medium text-gray-900 dark:text-white'><span>Blog</span></Link>
-                  <Link href={'/services'} className='ml-3 text-base font-medium text-gray-900 dark:text-white'><span>Services</span></Link>
+                  <Link href={'/Servicese'} className='ml-3 text-base font-medium text-gray-900 dark:text-white'><span>Services</span></Link>
                   <Link href={'/contact'} className='ml-3 text-base font-medium text-gray-900 dark:text-white'><span>Contactus</span></Link>
                   {user.value ? <Link href={'/user/profile'} className='ml-3 text-base font-medium text-gray-900 dark:text-white'><span>Your Profile</span></Link>:<div className='hidden'>ggg</div>}
                 

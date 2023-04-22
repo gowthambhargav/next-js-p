@@ -6,7 +6,7 @@ import { info } from 'autoprefixer';
 import Image from 'next/image';
 import blog from '../blog';
 import Link from 'next/link';
-function slugs({servicess,Cart}) {
+function Slugs({servicess,Cart}) {
   const router = useRouter();
   const { slug } = router.query;
   return (
@@ -97,4 +97,4 @@ export async function getServerSideProps(context) {
 }
 
 
-export default slugs
+export default Slugs

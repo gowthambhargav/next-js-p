@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React, { useEffect } from 'react'
 
-function blog({Blogs}) {
+function Blog({Blogs}) {
   const router = useRouter()
   useEffect(() => {
     console.log(Blogs);
@@ -66,4 +66,4 @@ function blog({Blogs}) {
   )
 }
 
-export default blog
+export default Blog

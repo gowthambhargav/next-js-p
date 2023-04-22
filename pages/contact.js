@@ -1,6 +1,6 @@
 import React from 'react'
 
-function contact( ) {
+function Contact( ) {
   return (
     <div>
  <section className="bg-white dark:bg-black/50">
@@ -28,4 +28,4 @@ function contact( ) {
   )
 }
 
-export default contact
+export default Contact

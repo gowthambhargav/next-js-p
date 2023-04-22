@@ -5,7 +5,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
-function signup() {
+function Signup() {
     const router = useRouter();
     const [username, setUsername] = useState('')
     const [email, setEmail] = useState('')
@@ -125,4 +125,4 @@ function signup() {
     )
 }
 
-export default signup
+export default Signup

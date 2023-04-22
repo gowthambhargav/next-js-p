@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 var jwt = require('jsonwebtoken');
 import User from '@/models/User';
 
-function login() {
+function Login() {
     const router = useRouter();
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
@@ -118,4 +118,4 @@ function login() {
     )
 }
 
-export default login
+export default Login

@@ -14,7 +14,7 @@ import SideBar from '@/components/SideBar';
 
 
 
-function profile({ userInfo, fetchUderInfo }) {
+function Profile({ userInfo, fetchUderInfo }) {
 
 
 
@@ -126,4 +126,4 @@ function profile({ userInfo, fetchUderInfo }) {
   )
 }
 
-export default profile
+export default Profile

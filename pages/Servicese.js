@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import mongoose from 'mongoose'
 import Services from '@/models/Services'
 import { Router, useRouter } from 'next/router'
-function services({services,service}) {
+function Servicese({services,service}) {
   const router = useRouter()
 useEffect(() => {
  
@@ -12,7 +12,7 @@ if(services === undefined){
 router.push('/')
 }
 setTimeout(() => {
-    router.push('/services')
+    router.push('/Servicese')
 }, 1000);
 // console.log(services[0].slug,'------------ser');
 
@@ -50,4 +50,4 @@ setTimeout(() => {
   )
 }
 
-export default services
+export default Servicese

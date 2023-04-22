@@ -4,7 +4,7 @@ import mongoose from 'mongoose';
 import AddBlog from '../../models/Blog'
 
 
-function slug(blog) {
+function Slug(blog) {
   const router = useRouter()
   const { slug } = router.query;
 
@@ -35,4 +35,4 @@ export async function getServerSideProps(context) {
     props:{ blog:JSON.parse(JSON.stringify(Blogs))} // will be passed to the page component as props
   }
 }
-export default slug
+export default Slug

@@ -6,7 +6,7 @@ const MyEditer = dynamic(()=> import('../components/Texteditor'),{
     ssr:false
 })
 
-function postBlog() {
+function PostBlog() {
     const [value, setValue] = useState("");
   return (
     <div>postBlog
@@ -18,4 +18,4 @@ function postBlog() {
   )
 }
 
-export default postBlog
+export default PostBlog
